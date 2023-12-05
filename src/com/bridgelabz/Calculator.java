@@ -5,6 +5,7 @@ public class Calculator {
         System.out.println("welcome to calculator");
         addition();
         substraction();
+        multiplication();
 
     }
     public static void addition()
@@ -16,5 +17,10 @@ public class Calculator {
     {
         int a=10,b=20;
         System.out.println(b-a);
+    }
+    public static void multiplication()
+    {
+        int a=10,b=20;
+        System.out.println(b*a);
     }
 }
